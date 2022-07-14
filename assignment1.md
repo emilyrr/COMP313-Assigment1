@@ -31,13 +31,15 @@ You need to show that you have edited a game template or created from a blank pr
    * Make a video to show the project and your code contribution ( < 10 mins )
 
 ## Rubric
- * Set your weighting https://forms.office.com/r/ifLKzeaZVq
+ * Set your weighting 
+
 Game grading
  * Control systems 20% (10-30)
  * User Interface 30% (20-40)
  * Interactions 25% (15-35)
  * Documentation 15% (10 - 25)
  * Video 10% (5-15)
+
 Technology grading
  * Control and Interaction 20% (10-30)
  * User Interface 30% (20-40)
@@ -60,6 +62,7 @@ Game Description
  * What was the hardest part of the game to get working in Unreal
  * What is the most interesting part of the game
  * Reflection on learning
+
 Technology Description
  * What is the support for the tech in Unreal
  * What was the hardest part of the tech to implement
@@ -73,6 +76,7 @@ There are many technologies you could choose to look at and you shouldn't be lim
    * Navigation meshes
    * Goal-Oriented Action Planning
    * Behaviour trees
+
 Genetic Algorithms for game balancing
  * Rendering:
    * Shaders for particle effects
