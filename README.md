@@ -9,11 +9,9 @@
 The Floor Is Lava is a digital reindition of the classic kids playground game! The aim of the game is to collect all the coins on the level by jumping from platform to platform without touching the lava.     
 
 ### Main mechanic
-Stuff about the main action in the game
+The player is viewed from a third person perspective and the direction of movement is controlled using the 'w','a','s','d' keys. The player can jump by pressing the 'space' bar, once for normal jump or twice for double jump. They can also sprint by pressing 'shift' or crouch by pressing 'ctrl'. There are transitions between the jumping, crouching and running/walking states to ensure the state can be entered from the current state i.e. you can't jump directly from a crouch .
 
-The player is viewed from a third person perspective and the direction of movement is controlled using the 'w','a','s','d' keys. The player can jump by pressing the 'space' bar, once for normal jump or twice for double jump. They can also sprint by pressing 'shift' or crouch by pressing 'ctrl'.
-
-Collecting the coins is one of the main actions in the game. They are classed as Actors with a sphere collision property which triggers an incremental increase in points upon collision. 
+Collecting the coins is one of the main actions in the game. The coins are classed as Actors with a sphere collision property which triggers an incremental increase in points upon collision. Once the player collides with a coin, the coin makes a clink sound and dissapears to indicate that it has been collected. Once all of the coins are collected, the game is over and the final 'Game Won!' screen is displayed with the option to restart.
 
 
 ### Development difficulties
