@@ -1,14 +1,20 @@
 # COMP313 Assignment 1 
-## <your name>
+## Emily Rhodes-Robinson 300526534
 
-## Cool Thing Title
+## The Floor Is Lava!
 
 [Gameplay video](https://www.youtube.com/watch?v=WB6w7ovocpk)
 
 ## Description
+The Floor Is Lava is a digital reindition of the classic kids playground game! The aim of the game is to collect all the coins on the level by jumping from platform to platform without touching the lava.     
 
 ### Main mechanic
 Stuff about the main action in the game
+
+The player is viewed from a third person perspective and the direction of movement is controlled using the 'w','a','s','d' keys. The player can jump by pressing the 'space' bar, once for normal jump or twice for double jump. They can also sprint by pressing 'shift' or crouch by pressing 'ctrl'.
+
+Collecting the coins is one of the main actions in the game. They are classed as Actors with a sphere collision property which triggers an incremental increase in points upon collision. 
+
 
 ### Development difficulties
 Getting the AI to want to take over the world was challenging as the return on investment is low.
