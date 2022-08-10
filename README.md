@@ -3,7 +3,7 @@
 
 ## The Floor Is Lava!
 
-[Gameplay video](https://www.youtube.com/watch?v=WB6w7ovocpk)
+[Gameplay video](https://youtu.be/nrPoIQmz-Jg)
 
 ## Description
 The Floor Is Lava is a digital reindition of the classic kids playground game! The aim of the game is to collect all the coins on the level by jumping from platform to platform without touching the lava.
@@ -31,10 +31,6 @@ I created the lava material myself by combining the fire and rock materials prov
 When the player touches/collides the lava, it damages the health of the player at a damage rate that depends on the playing mode (normal or hardcore) and this is displayed on the gameplay HUD screen. Once the health bar reaches zero, the player "dies" and the game is over which is signified by the game status screen that is triggered with the string parameter "Game Lost!" to be displayed and a button to restart the level.
 
 ### Reflection on Learning
-_What was the most important this I learnt in the process.  One way to frame this is to look at things you struggled with and think about how you solved those and if that solution is **transferable** to similar situations._
-
-_Reflections can be at multiple levels.  Specific things that you learnt about the code, things you learnt about programming in the environment, things about programming in general, things about learning, or even things about how you value different aspects of your life. We expect you to cover the general programming and learning reflections based on specific examples but showing that you have generalised from those a more interesting lesson._
-
 The idea for my game stemmed out of the functional elements that I had been working on incorporating. The first was the task of making the player interact with an object; this is where the coin idea came, and then editing the control system  inspired the idea of "The Floor Is Lava" - a familiar game but balanced with a reimagination of adding the coin collection task. I learnt a lot about balancing different aspects of the game, especially complexity vs clarity. I had so many ideas of how the game could be extended, for example adding a countdown timer that the user had to complete the game within, or adding more tasks or powerups, however all these elements added an extra complexity in both the gameplay and the background coding, therefore compromising the clarity. I discovered a better solution would be to incrementally add these details as the levels got higher so that the user can understand the key concepts of the gameplay initially, and then build on these slowly as their confidence and ability increased.
 
 I thouroughly enjoyed learning to use blueprints as they are a great visual representation of what the code is doing and as a visual learner, this is a big win for me! Next time I will defintiely focus on implementing more functions to increase the efficiency of the code. I can see how at a higher level, the blueprint code would become extremely cluttered and unnessicarily repetitive without more sufficient use of the function blueprints.
